@@ -70,9 +70,17 @@ nav a:hover {
     text-align: center !important;
 }
 
+.bottomLinx a {
+    color: var(--cDarker) !important;
+}
+
 .bottomLinx li {
-    list-style-type: none;
+    list-style-type: none !important;
     display: inline;
     padding: 50px;
     font-size: 1.5em;
+}
+
+.bottomLinx a:hover {
+    text-decoration: none;
 }
