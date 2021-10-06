@@ -7,6 +7,56 @@
     --cDarkest: #30343e;
 }
 
+/* Additional formatting for smaller screens */
+@media only screen and (max-width: 995px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .bottomLinx a {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    h1 {
+        font-size: 1.25rem;;
+    }
+
+    .highlightedText1 {
+        padding-top: 0 !important;
+    }
+
+    .highlightedText1 h2 {
+        padding: 0 !important;
+        font-size: 1.5rem !important;
+    }
+    
+    .highlightedText1 p {
+        padding: 0 !important;
+        font-size: 1rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .sideBorder {
+        border-left: 0 !important;
+        padding 105px !important;
+    }
+
+    .sectionHeader {
+        text-align: center !important;
+        font-size: 2rem;
+    }
+
+    .highlightedText1 h2 {
+        word-wrap: break-word;
+        padding: 0 !important;
+        font-size: 1.25rem !important;
+    }
+}
+
 main {
     font-size: 1.5rem;
 }
