@@ -1,3 +1,45 @@
+/* Establish color scheme */
+:root {
+    --cLightest: #edeef7;
+    --cLightBlue: #81cece;
+    --cDarker: #3f587a;
+    --cDarkerBlue: #233d69;
+    --cDarkest: #30343e;
+}
+
+main {
+    font-size: 1.5rem;
+}
+
+nav .container-fluid {
+    padding-left: 0px !important;
+}
+
+nav p {
+    margin-top: 15px;
+    padding: 0 30px 0 125px;
+    font-size: 2.5rem !important;
+    background-color: var(--cLightBlue);
+    color: var(--cDarkest) !important;
+}
+
+nav a {
+    font-size: 1.5rem;
+    color: var(--cLightBlue);
+    text-decoration: none !important;
+    border-bottom-style:solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-width: 2px !important;
+    border-color: var(--cLightBlue);
+    margin-left: 15px !important;
+}
+
+nav a:hover {
+    border-bottom-style: none !important;
+}
+
 .headerImage {
     background-image: url(../img/red_skyline.png);
     width: 100%;
@@ -18,4 +60,19 @@
 
 .sideBorder {
     border-left: 1px solid black;
+    padding 105px !important;
+}
+
+
+
+.bottomLinx {
+    height: 100px;
+    text-align: center !important;
+}
+
+.bottomLinx li {
+    list-style-type: none;
+    display: inline;
+    padding: 50px;
+    font-size: 1.5em;
 }

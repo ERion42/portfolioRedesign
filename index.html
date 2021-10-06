@@ -18,7 +18,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <section class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <p class="navbar-brand" href="#">Eric Rion</p>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,16 +26,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Biography</a>
+                            <a class="nav-link active" aria-current="page" href="#myBio">Biography</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#myWorks">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#myContact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Resume</a>
+                            <a class="nav-link" href="https://www.linkedin.com/in/eric-rion-97096166/" target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -51,14 +51,14 @@
         </section>
 
         <!-- About Me -->
-        <section class="container">
+        <section class="container" id="myBio" style="margin-top: 150px">
             <div class="row">
-              <div class="col-1">
-                About Me
+              <div class="col-2">
+                <h1>About Me</h1>
               </div>
               <div class="col sideBorder">
                 <!-- Bio portion -->
-                <section class="container">
+                <section class="container bioWords">
                     <div class="row">
                       <div class="col">
                             <p>My name is Eric Rion and I'm a web developer that lives in the suburbs outside of Atlanta, Ga. with my wife and our cat, Lenore.</p>
@@ -70,7 +70,7 @@
                             <p>I am currently enrolled in the Full Stack Coding Boot Camp and plan to get a job as a front end junior developer once I complete the course.</p>
                       </div>
                       <div class="col">
-                        <img src="./img/lenoreAndMe.png" style="height: 100%;">
+                        <img src="./img/lenoreAndMe.png" class="img-fluid" alt="My Cat And Me">
                       </div>
                     </div>
                 </section>
@@ -78,7 +78,7 @@
                 <section class="container">
                     <div class="row">
                         <div class="col-12">
-                            <img src="./img/crissyAndMe.png" style="width:100%">
+                            <img src="./img/crissyAndMe.png" class="img-fluid" alt="My Wife And Me">
                         </div>
                     </div>
                 </section>
@@ -87,35 +87,41 @@
         </section>
 
         <!-- Portfolio -->
-        <section class="container">
+        <section class="container" id="myWorks" style="margin-top: 25px">
             <div class="row">
-                <div class="col-1">
-                    My Works
+                <div class="col-2">
+                    <h1>My Works</h1>
                 </div>
                 <div class="col sideBorder">
                     <section class="container">
                         <!-- Wide photo  -->
                         <section class="row">
-                            <div class="col-12">
-                                <img src="./img/refactorImage.png" style="width:100%">
+                            <div class="col-12 my-5 border border-dark rounded">
+                                <a href="https://github.com/ERion42/Horiseon-Refactor-EMR" target="_blank">
+                                    <img src="./img/refactorImage.png" class="img-fluid p-2" alt="My Refactor Job">
+                                </a>
+                            </div>
+                        </section>
+                        <!-- Two half photos -->
+                        <section class="row align-items-center">
+                            <div class="col-6">
+                                <a href="https://github.com/ERion42/weatherDashboard">
+                                    <img src="./img/dashboardScreenshot.png" class="img-fluid p-2" alt="My Weather Dashboard">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/ERion42/fantasticDayPlanner">
+                                    <img src="./img/dayPlanner.png" class="img-fluid" alt="My Day Planner">
+                                </a>
                             </div>
                         </section>
                         <!-- Two half photos -->
                         <section class="row">
                             <div class="col-6">
-                                <img src="./img/catImage.png" style="width:100%">
+                                <img src="./img/controllerImage.png" class="img-fluid" alt="My Refactor Job">
                             </div>
                             <div class="col-6">
-                                <img src="./img/foodImage.png" style="width:100%">
-                            </div>
-                        </section>
-                        <!-- Two half photos -->
-                        <section class="row">
-                            <div class="col-6">
-                                <img src="./img/controllerImage.png" style="width:100%">
-                            </div>
-                            <div class="col-6">
-                                <img src="./img/artImage.png" style="width:100%">
+                                <img src="./img/artImage.png" class="img-fluid" alt="My Refactor Job">
                             </div>
                         </section>
                     </section>
@@ -124,16 +130,16 @@
         </section>
 
         <!-- Contact Me  -->
-        <section class="container">
+        <section class="container" id="myContact" style="margin-top: 50px">
             <div class="row">
-                <div class="col-1">
-                    Contact Me
+                <div class="col-2">
+                    <h1>Contact Me</h1>
                 </div>
-                <div class="col sideBorder">
+                <section class="col sideBorder">
                     <section class="container">
                         <section class="row">
                             <div class="col-12">
-                                <ul>
+                                <ul class="bottomLinx">
                                     <li><a href="https://github.com/ERion42" target="_blank">GitHub</a></li>
                                     <li><a href="https://www.linkedin.com/in/eric-rion-97096166/" target="_blank">LinkedIn</a></li>
                                     <li><a href="mailto: erion42@gmail.com">Email</a></li>
@@ -141,7 +147,7 @@
                             </div>
                         </section>
                     </section>
-                </div>
+                </section>
             </div>
         </section>
 
