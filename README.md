@@ -17,6 +17,9 @@ Now that I know a bit more about Bootstrap I've used it to make a more responsiv
 
 * [Questions](#questions)
 
+![imgur](https://i.imgur.com/ELiCHvT.png)
+
+
 ## Installation
 
 To install necessary dependencies, run the following command:
