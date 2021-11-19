@@ -48,5 +48,5 @@ none
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ericrion3000@yahoo.com. You can find more of my work at [Erion42](https://github.com/Erion42/).
+If you have any questions about the repo, open an issue or contact me directly at ericrion3000@gmail.com. You can find more of my work at [Erion42](https://github.com/Erion42/).
 
